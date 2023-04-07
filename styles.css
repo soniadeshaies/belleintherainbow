@@ -1,0 +1,30 @@
+body{
+    /* background-color: black; */
+    margin: 0;
+}
+
+/* This allows you to be able to position html elements starting from the top left instead of displaying as block under p5.js canvas */
+#html-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/rainbow.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#color-input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    width: 20%;
+    margin: auto;
+}
+
+.next{
+    text-align: center;
+    align-content: center;
+}
+
